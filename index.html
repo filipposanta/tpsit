@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <title>Levi Ponti</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./js/script.js">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-sm fixed-top bg-dark navbarScroll navbar-dark">
+
+        <div class="container">
+            <a class="navbar-brand" href="#">Levi Ponti</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Chi siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Specializzazioni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="container mt-5 pt-4 section">
+        <h1 class="text-center">Scuola statale - ISTITUTO SUPERIORE</h1>   
+    </section>
+    
+<section class="container-fluid section bgimage" id="home">
+    <div class="container p-5">
+
+        <div id="carouselExample" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="images/Levi-Ponti2.jpg" class="d-block w-100" height="550px">
+                </div>
+                <div class="carousel-item active">
+                    <img src="images/Levi-Ponti1.jpg" class="d-block w-100" height="550px">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Levi-Ponti3.jpg" class="d-block w-100" height="550px">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- main banner -->
+    
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">Chi siamo</h1>
+        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="./images/LeviPonti-logo.jpg" class="image_about" alt="Levi">
+            </div>
+
+            <div class="col-lg-6">
+                <p> L’IIS Levi Ponti propone una preparazione tecnico-professionale ancorata alla realtà produttiva locale, caratterizzata da una rete di medie e piccole imprese, ideale contesto per periti industriali e tecnici manutentori.
+                     Molti dei nostri recenti diplomati hanno trovato lavoro, in settori coerenti con l’indirizzo di studi, entro sei mesi dal conseguimento del diploma. L’ITIS Levi propone quattro indirizzi del settore tecnologico:
+                    
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Elettrotecnica ed Elettronica</li>
+                            <li>Chimica, Materiali e Biotecnologie</li>
+                            <li>Informatica e Telecomunicazioni</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Meccanica, Meccatronica ed Energia</li>
+                            <li>Manutenzione e assistenza tecnica</li>
+                            <li>Servizi commerciali</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p> L’Istituto Tecnico Primo Levi ha la durata di cinque anni; è suddiviso in due bienni e in un quinto anno, al termine del quale gli studenti sostengono l’esame di Stato e conseguono il diploma di istruzione tecnica. Il diploma è valido ai fini della continuazione degli studi in qualunque facoltà universitaria ed in particolare in quelle tecnico scientifiche, oltre che nei percorsi di istruzione e formazione tecnica superiore (IFTS), nonchè nei bienni di Istruzione Tecnica Superiore (ITS).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+ 
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Specializzazioni</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/elettronica-elettrotecnica.jpg" class="d-block w-100" height="200px">
+                        <div class="card-body">
+                            <h4 class="card-title">Elettrotecnica ed Elettronica</h4>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-success btn-sm" onclick="window.location.href='./pages/elettronica-elettrotecnica.html'">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/Chimica-Materiali-Biotecnologie.jpg" class="d-block w-100" height="200px">
+                        <div class="card-body">
+                            <h4 class="card-title">Chimica, Materiali e Biotecnologie</h4>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-success btn-sm" onclick="window.location.href='./pages/chimica-materiali-biotecnologie.html'">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/Informatica-telecomunicazioni.jpg" class="d-block w-100" height="200px">
+                        <div class="card-body">
+                            <h4 class="card-title">Informatica e Telecomunicazioni</h4>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-success btn-sm" onclick="window.location.href='./pages/informatica-telecomunicazioni.html'">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/Meccanica-Meccatronica-Energia.jpg" class="d-block w-100" height="200px">
+                        <div class="card-body">
+                            <h4 class="card-title">Meccanica e Meccatronica</h4>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-success btn-sm" onclick="window.location.href='./pages/meccanica-meccatronica-energia.html'">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/Manutenzione-assistenza-tecnica.jpg" class="d-block w-100" height="200px">
+                        <div class="card-body">
+                            <h4 class="card-title">Manutenzione e assistenza tecnica</h4>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-success btn-sm" onclick="window.location.href='./pages/manutenzione-assistenza-tecnica.html'">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/Servizi-commerciali.jpg" class="d-block w-100" height="200px">
+                        <div class="card-body">
+                            <h4 class="card-title">Servizi commerciali</h4>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-success btn-sm" onclick="window.location.href='./pages/servizi-commerciali.html'">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contatti</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+                        <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=IIS+Levi-Ponti,+Via+Giacomo+Matteotti,+Mirano,+VE,+Italia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                        </div><a class="embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="enable-map-data"></a>
+                        <style>#canvas-for-googlemap img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+                    </div>
+               </div>
+
+                <div class="col-lg-6">
+                    <div class="col-lg-8">
+                        <p> L'I.I.S. "Levi-Ponti" è costituito da due distinti Istituti:
+
+                        </p>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li> l'I.T.I.S. "Primo Levi";
+                                    </li>
+                                    <li> l'I.P.S.I.A. "Giovanni Ponti"
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3">
+                                <p> Gli Istituti si trovano a Mirano in provincia di Venezia, una cittadina di circa 27.000 abitanti 
+                                    dove è stato realizzato un polo scolastico che comprende oltre all'I.T.I.S. 
+                                    "Primo Levi" anche l'Istituto "8 Marzo" e il liceo "Majorana Corner". 
+                                    Mentre l'I.P.S.I.A. "G. Ponti è situato lungo la via principale con adiacente l'Istuto "K. Lorenz".
+                                </p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-success mt-3">Contatti</button>
+
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    
+
+    <!-- load javascript after loading all html content -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>

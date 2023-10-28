@@ -1,0 +1,45 @@
+/* spacing on all sections */
+.section {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+.section:last-of-type {
+    padding-bottom: 4rem;
+}  
+/* hero background image */
+.bgimage {
+    height:120vh;
+    background-size:cover;
+    position:relative;
+    padding: 0;
+    margin: 0;
+}
+.image_about {
+    width: 100%;
+}
+
+.navbarDark {
+   background:black;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover {
+    color: black;
+}
+.fab {
+    color: black;
+}
+
+.card-title {
+    text-align: center;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color:white;
+}
